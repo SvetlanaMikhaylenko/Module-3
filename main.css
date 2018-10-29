@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px;
+line-height: 21px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;  
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-top: 65px;
+    margin-bottom: 90px;
+}
+
+/* site navigation */
+.site-navigation {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+
+.site-navigation a {
+    color: #898989;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: red;
+}
+
+.general {
+    list-style: none;
+    margin: 50px;
+}
+/* resources */
+.resource {
+    display:inline-block;
+    width: 326px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.article-category {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-family: 'Myriad Pro', serif;
+}
+
+.resource h4 {
+text-transform: uppercase;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 550;
+color: #626262;
+font-size: 16px;
+}
+
+.article-descr {
+    font-size: 14px;
+    margin-bottom: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777777;
+}
+
+.resource:nth-child(2n) {
+    margin-right: 0;
+}
+
+.button {
+    color: #7c7c7c;
+    display: block;
+    width: 150px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
