@@ -8,9 +8,14 @@ html {
 }
 
 body {
-font-family: 'Times New Roman', Times, serif;
-font-size: 14px;
-line-height: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
 }
 
 img {
@@ -19,23 +24,16 @@ img {
     height: auto;  
 }
 
-.container {
-    width: 900px;
-    margin: 0 auto;
-}
-
 nav {
     text-align: center;
     vertical-align: middle;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    margin-top: 65px;
-    margin-bottom: 90px;
+    padding: 50px 0;
 }
 
 /* site navigation */
 .site-navigation {
-    display: inline-block;
     margin: 0;
     padding: 0;
 }
@@ -43,7 +41,6 @@ nav {
 .site-navigation li {
     display: inline-block;
     margin-right: 100px;
-
 }
 
 .site-navigation li:last-child {
@@ -58,44 +55,51 @@ nav {
 
 .site-navigation a:hover,
 .site-navigation a:focus {
-    color: red;
+    color: #1abc9c;
 }
 
 .general {
     list-style: none;
-    margin: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
 }
+
 /* resources */
 .resource {
-    display:inline-block;
-    width: 326px;
-    margin-right: 40px;
-    margin-left: 40px;
+    display: inline-block;
+    vertical-align: top;
+    width: 420px;
+    margin-right: 60px;
+    margin-bottom: 110px;
+}
+
+.resource:nth-child(2n) {
+    margin-right: 0;
 }
 
 .article-category {
     text-transform: uppercase;
     color: #b4ad9e;
     font-family: 'Myriad Pro', serif;
+    font-size: 16px;
+    margin: 20px 0;
 }
 
 .resource h4 {
-text-transform: uppercase;
-font-family: 'Times New Roman', Times, serif;
-font-weight: 550;
-color: #626262;
-font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 550;
+    color: #626262;
+    font-size: 18px;
+    margin: 0 auto;
 }
 
 .article-descr {
     font-size: 14px;
-    margin-bottom: 100px;
+    margin-top: 15px;
     font-family: 'Times New Roman', Times, serif;
     color: #777777;
-}
-
-.resource:nth-child(2n) {
-    margin-right: 0;
 }
 
 .button {
